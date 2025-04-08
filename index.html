@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة التسويق العقاري - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts - Tajawal for Arabic -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="شركة التسويق العقاري">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li class="active"><a href="index.html">الرئيسية</a></li>
+                    <li class="dropdown">
+                        <a href="#">المناطق <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="category.html?area=capital">العاصمة الإدارية</a></li>
+                            <li><a href="category.html?area=newcairo">القاهرة الجديدة</a></li>
+                            <li><a href="category.html?area=october">٦ اكتوبر</a></li>
+                            <li><a href="category.html?area=zayed">الشيخ زايد</a></li>
+                            <li><a href="category.html?area=greenbelt">الحزام الأخضر</a></li>
+                            <li><a href="category.html?area=tagamo6">التجمع السادس</a></li>
+                            <li><a href="category.html?area=tagamo5">التجمع الخامس</a></li>
+                            <li><a href="category.html?area=northcoast">الساحل الشمالي</a></li>
+                            <li><a href="category.html?area=sokhna">العين السخنة</a></li>
+                            <li><a href="category.html?area=redsea">البحر الأحمر</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">أنواع العقارات <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="category.html?type=apartment">شقق</a></li>
+                            <li><a href="category.html?type=villa">فيلات</a></li>
+                            <li><a href="category.html?type=duplex">دوبلكس</a></li>
+                            <li><a href="category.html?type=penthouse">بنتهاوس</a></li>
+                            <li><a href="category.html?type=studio">استوديو</a></li>
+                            <li><a href="category.html?type=commercial">وحدات تجارية</a></li>
+                            <li><a href="category.html?type=administrative">وحدات إدارية</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">المقالات</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="#" class="search-toggle"><i class="fas fa-search"></i></a>
+                <a href="contact.html" class="cta-button">طلب استشارة</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Search Form -->
+        <div class="search-form">
+            <div class="container">
+                <form action="search.html" method="get">
+                    <input type="text" name="q" placeholder="ابحث عن عقارات...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <div class="slide-image" style="background-image: url('images/slider1.jpg');">
+                    <div class="slide-content">
+                        <h2>العاصمة الإدارية الجديدة</h2>
+                        <p>اكتشف أفضل الفرص العقارية في قلب مصر الجديدة</p>
+                        <a href="category.html?area=capital" class="cta-button">عرض العقارات</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-image" style="background-image: url('images/slider2.jpg');">
+                    <div class="slide-content">
+                        <h2>القاهرة الجديدة</h2>
+                        <p>فرص استثمارية متميزة في أرقى أحياء القاهرة الجديدة</p>
+                        <a href="category.html?area=newcairo" class="cta-button">عرض العقارات</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-image" style="background-image: url('images/slider3.jpg');">
+                    <div class="slide-content">
+                        <h2>الساحل الشمالي</h2>
+                        <p>وحدات فاخرة على شاطئ البحر المتوسط</p>
+                        <a href="category.html?area=northcoast" class="cta-button">عرض العقارات</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-slide"><i class="fas fa-chevron-right"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-slide"><i class="fas fa-chevron-left"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Search Section -->
+    <section class="quick-search">
+        <div class="container">
+            <h2>البحث السريع</h2>
+            <form action="search.html" method="get" class="search-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="area">المنطقة</label>
+                        <select id="area" name="area">
+                            <option value="">كل المناطق</option>
+                            <option value="capital">العاصمة الإدارية</option>
+                            <option value="newcairo">القاهرة الجديدة</option>
+                            <option value="october">٦ اكتوبر</option>
+                            <option value="zayed">الشيخ زايد</option>
+                            <option value="greenbelt">الحزام الأخضر</option>
+                            <option value="tagamo6">التجمع السادس</option>
+                            <option value="tagamo5">التجمع الخامس</option>
+                            <option value="northcoast">الساحل الشمالي</option>
+                            <option value="sokhna">العين السخنة</option>
+                            <option value="redsea">البحر الأحمر</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="type">نوع العقار</label>
+                        <select id="type" name="type">
+                            <option value="">كل الأنواع</option>
+                            <option value="apartment">شقة</option>
+                            <option value="villa">فيلا</option>
+                            <option value="duplex">دوبلكس</option>
+                            <option value="penthouse">بنتهاوس</option>
+                            <option value="studio">استوديو</option>
+                            <option value="commercial">وحدة تجارية</option>
+                            <option value="administrative">وحدة إدارية</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="rooms">عدد الغرف</label>
+                        <select id="rooms" name="rooms">
+                            <option value="">الكل</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">السعر (حتى)</label>
+                        <select id="price" name="price">
+                            <option value="">الكل</option>
+                            <option value="1000000">1 مليون جنيه</option>
+                            <option value="2000000">2 مليون جنيه</option>
+                            <option value="5000000">5 مليون جنيه</option>
+                            <option value="10000000">10 مليون جنيه</option>
+                            <option value="20000000">20 مليون جنيه</option>
+                            <option value="50000000">50 مليون جنيه</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="search-button">بحث <i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Featured Properties Section -->
+    <section class="featured-properties">
+        <div class="container">
+            <h2 class="section-title">عقارات مميزة</h2>
+            <div class="properties-grid">
+                <!-- Property Card 1 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <a href="post.html?id=1">
+                            <img src="images/property1.jpg" alt="عقار مميز في العاصمة الإدارية">
+                            <div class="property-tag">مميز</div>
+                            <div class="property-price">3,500,000 ج.م</div>
+                        </a>
+                    </div>
+                    <div class="property-content">
+                        <h3><a href="post.html?id=1">شقة فاخرة في العاصمة الإدارية</a></h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> العاصمة الإدارية - الحي السكني الخامس
+                        </div>
+                        <div class="property-details">
+                            <span><i class="fas fa-ruler-combined"></i> 150 م²</span>
+                            <span><i class="fas fa-bed"></i> 3 غرف</span>
+                            <span><i class="fas fa-bath"></i> 2 حمام</span>
+                        </div>
+                        <div class="property-footer">
+                            <a href="post.html?id=1" class="details-button">التفاصيل</a>
+                            <a href="contact.html?property=1" class="contact-button">استعلام</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Property Card 2 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <a href="post.html?id=2">
+                            <img src="images/property2.jpg" alt="فيلا في الشيخ زايد">
+                            <div class="property-tag">جديد</div>
+                            <div class="property-price">8,200,000 ج.م</div>
+                        </a>
+                    </div>
+                    <div class="property-content">
+                        <h3><a href="post.html?id=2">فيلا مستقلة في الشيخ زايد</a></h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> الشيخ زايد - المجاورة الثالثة
+                        </div>
+                        <div class="property-details">
+                            <span><i class="fas fa-ruler-combined"></i> 320 م²</span>
+                            <span><i class="fas fa-bed"></i> 5 غرف</span>
+                            <span><i class="fas fa-bath"></i> 4 حمام</span>
+                        </div>
+                        <div class="property-footer">
+                            <a href="post.html?id=2" class="details-button">التفاصيل</a>
+                            <a href="contact.html?property=2" class="contact-button">استعلام</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Property Card 3 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <a href="post.html?id=3">
+                            <img src="images/property3.jpg" alt="شقة في التجمع الخامس">
+                            <div class="property-tag">تقسيط</div>
+                            <div class="property-price">2,800,000 ج.م</div>
+                        </a>
+                    </div>
+                    <div class="property-content">
+                        <h3><a href="post.html?id=3">شقة في التجمع الخامس</a></h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> التجمع الخامس - الشويفات
+                        </div>
+                        <div class="property-details">
+                            <span><i class="fas fa-ruler-combined"></i> 180 م²</span>
+                            <span><i class="fas fa-bed"></i> 3 غرف</span>
+                            <span><i class="fas fa-bath"></i> 2 حمام</span>
+                        </div>
+                        <div class="property-footer">
+                            <a href="post.html?id=3" class="details-button">التفاصيل</a>
+                            <a href="contact.html?property=3" class="contact-button">استعلام</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Property Card 4 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <a href="post.html?id=4">
+                            <img src="images/property4.jpg" alt="شاليه في الساحل الشمالي">
+                            <div class="property-tag">مميز</div>
+                            <div class="property-price">4,500,000 ج.م</div>
+                        </a>
+                    </div>
+                    <div class="property-content">
+                        <h3><a href="post.html?id=4">شاليه في الساحل الشمالي</a></h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> الساحل الشمالي - مراسي
+                        </div>
+                        <div class="property-details">
+                            <span><i class="fas fa-ruler-combined"></i> 120 م²</span>
+                            <span><i class="fas fa-bed"></i> 2 غرف</span>
+                            <span><i class="fas fa-bath"></i> 2 حمام</span>
+                        </div>
+                        <div class="property-footer">
+                            <a href="post.html?id=4" class="details-button">التفاصيل</a>
+                            <a href="contact.html?property=4" class="contact-button">استعلام</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="search.html" class="view-all-button">عرض جميع العقارات</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas Section -->
+    <section class="areas-section">
+        <div class="container">
+            <h2 class="section-title">استكشف المناطق</h2>
+            <div class="areas-grid">
+                <!-- Area Card 1 -->
+                <div class="area-card">
+                    <a href="category.html?area=capital">
+                        <div class="area-image" style="background-image: url('images/area1.jpg');">
+                            <div class="area-overlay">
+                                <h3>العاصمة الإدارية</h3>
+                                <span class="property-count">24 عقار</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Area Card 2 -->
+                <div class="area-card">
+                    <a href="category.html?area=newcairo">
+                        <div class="area-image" style="background-image: url('images/area2.jpg');">
+                            <div class="area-overlay">
+                                <h3>القاهرة الجديدة</h3>
+                                <span class="property-count">36 عقار</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Area Card 3 -->
+                <div class="area-card">
+                    <a href="category.html?area=october">
+                        <div class="area-image" style="background-image: url('images/area3.jpg');">
+                            <div class="area-overlay">
+                                <h3>٦ اكتوبر</h3>
+                                <span class="property-count">18 عقار</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Area Card 4 -->
+                <div class="area-card">
+                    <a href="category.html?area=zayed">
+                        <div class="area-image" style="background-image: url('images/area4.jpg');">
+                            <div class="area-overlay">
+                                <h3>الشيخ زايد</h3>
+                                <span class="property-count">15 عقار</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Area Card 5 -->
+                <div class="area-card">
+                    <a href="category.html?area=northcoast">
+                        <div class="area-image" style="background-image: url('images/area5.jpg');">
+                            <div class="area-overlay">
+                                <h3>الساحل الشمالي</h3>
+                                <span class="property-count">12 عقار</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Area Card 6 -->
+                <div class="area-card">
+                    <a href="category.html?area=sokhna">
+                        <div class="area-image" style="background-image: url('images/area6.jpg');">
+                            <div class="area-overlay">
+                                <h3>العين السخنة</h3>
+                                <span class="property-count">9 عقار</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles Section -->
+    <section class="latest-articles">
+        <div class="container">
+            <h2 class="section-title">أحدث المقالات</h2>
+            <div class="articles-grid">
+                <!-- Article Card 1 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <a href="article.html?id=1">
+                            <img src="images/article1.jpg" alt="مقال عن الاستثمار العقاري">
+                        </a>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-date">
+                            <i class="far fa-calendar-alt"></i> 15 مارس 2025
+                        </div>
+                        <h3><a href="article.html?id=1">دليلك الشامل للاستثمار العقاري في مصر 2025</a></h3>
+                        <p>تعرف على أفضل الفرص الاستثمارية في السوق العقاري المصري وكيفية اختيار العقار المناسب لاستثمارك.</p>
+                        <a href="article.html?id=1" class="read-more">اقرأ المزيد <i class="fas fa-long-arrow-alt-left"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article Card 2 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <a href="article.html?id=2">
+                            <img src="images/article2.jpg" alt="مقال عن العاصمة الإدارية">
+                        </a>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-date">
+                            <i class="far fa-calendar-alt"></i> 10 مارس 2025
+                        </div>
+                        <h3><a href="article.html?id=2">العاصمة الإدارية: مستقبل الاستثمار العقاري في مصر</a></h3>
+                        <p>نظرة تفصيلية على مشروع العاصمة الإدارية الجديدة وفرص الاستثمار المتاحة فيها للأفراد والشركات.</p>
+                        <a href="article.html?id=2" class="read-more">اقرأ المزيد <i class="fas fa-long-arrow-alt-left"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article Card 3 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <a href="article.html?id=3">
+                            <img src="images/article3.jpg" alt="مقال عن التمويل العقاري">
+                        </a>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-date">
+                            <i class="far fa-calendar-alt"></i> 5 مارس 2025
+                        </div>
+                        <h3><a href="article.html?id=3">كل ما تحتاج معرفته عن التمويل العقاري في مصر</a></h3>
+                        <p>شرح مفصل لنظام التمويل العقاري في مصر وكيفية الاستفادة منه في شراء العقارات بأقساط ميسرة.</p>
+                        <a href="article.html?id=3" class="read-more">اقرأ المزيد <i class="fas fa-long-arrow-alt-left"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="blog.html" class="view-all-button">عرض جميع المقالات</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>هل تبحث عن عقار مناسب؟</h2>
+                <p>دعنا نساعدك في العثور على العقار المثالي الذي يلبي جميع احتياجاتك</p>
+                <a href="contact.html" class="cta-button">تواصل معنا الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-widgets">
+                <!-- Widget 1: About -->
+                <div class="footer-widget">
+                    <h3>عن الشركة</h3>
+                    <p>شركة متخصصة في التسويق العقاري توفر خدمات متكاملة في مجال العقارات بمختلف المناطق في مصر.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Widget 2: Quick Links -->
+                <div class="footer-widget">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="blog.html">المقالات</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                        <li><a href="terms.html">الشروط والأحكام</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Widget 3: Popular Areas -->
+                <div class="footer-widget">
+                    <h3>المناطق الشائعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="category.html?area=capital">العاصمة الإدارية</a></li>
+                        <li><a href="category.html?area=newcairo">القاهرة الجديدة</a></li>
+                        <li><a href="category.html?area=october">٦ اكتوبر</a></li>
+                        <li><a href="category.html?area=zayed">الشيخ زايد</a></li>
+                        <li><a href="category.html?area=northcoast">الساحل الشمالي</a></li>
+                        <li><a href="category.html?area=sokhna">العين السخنة</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Widget 4: Contact Info -->
+                <div class="footer-widget">
+                    <h3>معلومات الاتصال</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> القاهرة الجديدة، التجمع الخامس</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+201234567890">+20 123 456 7890</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@realestate.com">info@realestate.com</a></li>
+                        <li><i class="fas fa-clock"></i> السبت - الخميس: 9 صباحاً - 6 مساءً</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة &copy; 2025 شركة التسويق العقاري</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
